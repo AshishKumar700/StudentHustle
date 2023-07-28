@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_marginLeft="12dp"
+    android:layout_marginRight="12dp"
+    android:layout_marginTop="8dp">
+
+
+    <RelativeLayout
+        android:id="@+id/cardView1"
+        android:layout_width="wrap_content"
+        android:layout_height="872dp"
+        android:background="@drawable/background"
+        android:padding="8dp">
+
+
+        <TextView
+            android:id="@+id/TV_jobtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="3dp"
+            android:paddingBottom="4dp"
+            android:text="Android Developer"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TV_companyname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TV_jobtitle"
+            android:drawablePadding="2dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:text="Tata Consultancy Services"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/TV_companyname4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TV_jobtitle"
+            android:layout_marginTop="84dp"
+            android:drawablePadding="2dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:text="Delivery"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TV_companyname5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TV_jobtitle"
+            android:layout_marginTop="121dp"
+            android:drawablePadding="2dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:text="Swiggy"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TV_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TV_companyname"
+            android:drawablePadding="2dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:text="Bangalore,Karnataka"
+            android:textColor="#616161"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/TV_location3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TV_companyname"
+            android:layout_marginTop="123dp"
+            android:drawablePadding="2dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:text="Manipal,Karnataka"
+            android:textColor="#616161"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
